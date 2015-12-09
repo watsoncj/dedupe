@@ -1,0 +1,14 @@
+{
+  "name": "dedupe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dedupe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casey Watson <watsoncj@gmail.com> (http://caseywat.so/n)",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.18.0"
+  }
+}
