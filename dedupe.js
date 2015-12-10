@@ -10,7 +10,7 @@ if (!dir) {
   process.exit();
 }
 
-function checksum (str, algorithm, encoding) {
+function checksum(str, algorithm, encoding) {
   return crypto
     .createHash(algorithm || 'md5')
     .update(str, 'utf8')
