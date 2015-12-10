@@ -7,7 +7,7 @@ var R =      require('ramda');
 var dir = process.argv[2];
 if (!dir) {
   console.error('Usage: ' + process.argv[1] + ' directory');
-  process.exit();
+  process.exit(1);
 }
 
 function checksum(str, algorithm, encoding) {
