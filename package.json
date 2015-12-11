@@ -15,5 +15,9 @@
     "minimist": "^1.2.0",
     "ramda": "^0.18.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/watsoncj/dedupe.git"
+  },
   "homepage": "https://github.com/watsoncj/dedupe"
 }
