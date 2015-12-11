@@ -6,7 +6,7 @@ Quickly remove duplicate files.
 
 ## Installation
 
-  npm install -g dedupe
+    npm install -g dedupe
 
 ## Usage
 
