@@ -9,6 +9,7 @@
   "author": "Casey Watson <watsoncj@gmail.com> (http://caseywat.so/n)",
   "license": "ISC",
   "dependencies": {
+    "minimist": "^1.2.0",
     "ramda": "^0.18.0"
   }
 }
