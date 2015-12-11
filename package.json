@@ -1,5 +1,5 @@
 {
-  "name": "dedupe",
+  "name": "@watsoncj/dedupe",
   "version": "1.0.0",
   "description": "",
   "main": "dedupe.js",
@@ -8,6 +8,9 @@
   },
   "author": "Casey Watson <watsoncj@gmail.com> (http://caseywat.so/n)",
   "license": "ISC",
+  "bin" : { 
+    "dedupe" : "./dedupe.js" 
+  },
   "dependencies": {
     "minimist": "^1.2.0",
     "ramda": "^0.18.0"

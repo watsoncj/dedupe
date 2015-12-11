@@ -1,9 +1,18 @@
 # Dedupe
 
-Remove duplicate files.
+Quickly remove duplicate files.
 
-Be sure to create a backup of your files prior to running.
+*Be sure to create a backup of your files prior to running.*
 
-    Usage: ./dedupe.js [-n] directory
+## Installation
+
+  npm install -g dedupe
+
+## Usage
+
+    Usage: dedupe [-n] directory
       -n   Dry run. Don't delete any files, print what would be deleted
 
+## Example
+
+    dedupe -n $HOME/dir-with-duplicates/
